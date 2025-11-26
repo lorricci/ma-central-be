@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from app.api import martial_arts_api
 from app.db.database import close_db_client, init_db
 from app.core import config
+from fastapi.middleware.cors import CORSMiddleware
 
 # --- Gestore del Ciclo di Vita (Lifespan Handler) ---
 
@@ -20,6 +21,20 @@ async def lifespan(app: FastAPI):
     close_db_client()
 
 application = FastAPI(title="Martial Arts Central", lifespan=lifespan)
+
+# --- Set CORS e MiddleWare
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+
+application.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # --- Registrazione del Router ---
 
