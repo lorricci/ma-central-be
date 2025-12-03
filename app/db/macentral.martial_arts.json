@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6913a3db77121d4212121bcb"
+  },
+  "name": "Aikido",
+  "focus": "Leve, proiezioni e immobilizzazioni",
+  "description": "Via dell'armonia. Utilizza movimenti circolari per deviare l'attacco dell'avversario e neutralizzarlo senza danneggiarlo, focalizzandosi sul controllo e non sulla forza bruta.",
+  "imageUrl": "src/assets/images/about_cards/aikido.jpg"
+},
+{
+  "_id": {
+    "$oid": "6913a3db77121d4212121bcc"
+  },
+  "name": "Brazilian Jiu-Jitsu",
+  "focus": "Combattimento a terra",
+  "description": "Lotta incentrata sul dominio a terra. Obiettivo è sottomettere l'avversario tramite strangolamenti e chiavi articolari (leve). Sviluppa strategia, pazienza e tecnica pura.",
+  "imageUrl": "src/assets/images/about_cards/bjj.jpg"
+},
+{
+  "_id": {
+    "$oid": "6913a3db77121d4212121bce"
+  },
+  "name": "Judo",
+  "focus": "Proiezioni e immobilizzazioni",
+  "description": "Via della cedevolezza. Si concentra sull'uso della forza dell'avversario per proiettarlo a terra e controllarlo, senza l'uso di calci o pugni. Sviluppa equilibrio e controllo.",
+  "imageUrl": "src/assets/images/about_cards/judo.jpg"
+},
+{
+  "_id": {
+    "$oid": "6913a3db77121d4212121bcf"
+  },
+  "name": "Karate",
+  "focus": "Colpi (pugni, calci, ginocchiate)",
+  "description": "Arte giapponese basata su colpi potenti e veloci. Sviluppa disciplina, forza esplosiva e tecniche di bloccaggio e attacco precise. Ottimo per l'autodifesa.",
+  "imageUrl": "src/assets/images/about_cards/karate.jpg"
+},
+{
+  "_id": {
+    "$oid": "6913a3db77121d4212121bd0"
+  },
+  "name": "Muay Thai",
+  "focus": "Arte delle otto armi",
+  "description": "Boxe thailandese, un sistema di striking molto potente. Utilizza pugni, calci, gomitate e ginocchiate, inclusa la clinch. Famoso per l'efficacia e l'allenamento fisico intenso.",
+  "imageUrl": "src/assets/images/about_cards/muay_thai.jpg"
+},
+{
+  "_id": {
+    "$oid": "6913a3db77121d4212121bd1"
+  },
+  "name": "Taekwondo",
+  "focus": "Calci alti e dinamici",
+  "description": "Arte coreana nota per i suoi calci spettacolari e le rotazioni acrobatiche. Sport olimpico che enfatizza velocità, flessibilità e una distanza di combattimento maggiore.",
+  "imageUrl": "src/assets/images/about_cards/taekwondo.jpg"
+}]
